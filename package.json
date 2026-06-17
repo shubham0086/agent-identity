@@ -1,0 +1,15 @@
+{
+  "name": "agent-identity",
+  "version": "1.0.0",
+  "description": "Scoped, short-lived, signed credentials for autonomous agents — who the agent is, what it may do, audited and revocable",
+  "type": "module",
+  "main": "src/AgentIdentity.js",
+  "scripts": {
+    "test": "node tests/identity.test.js",
+    "demo": "node demo/scoped-token.js"
+  },
+  "keywords": ["ai", "agent", "identity", "authorization", "authz", "capability", "scopes", "audit", "revocation", "security"],
+  "author": "Shubham Prajapati",
+  "license": "MIT",
+  "engines": { "node": ">=18.0.0" }
+}
