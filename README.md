@@ -4,6 +4,8 @@
 > misusing it. Capability scoping says which tools a *role* may call. Identity says **who this agent
 > is, what short-lived credential it carries right now, and how to audit and revoke it.**
 
+> For project walkthroughs, architecture diagrams, and system context, visit the live portfolio: [my-portfolio-github-io-beta-five.vercel.app](https://my-portfolio-github-io-beta-five.vercel.app)
+
 A zero-dependency broker that issues scoped, short-lived, signed credentials to agents and authorizes
 their actions against those scopes — with an append-only audit log and instant revocation. The
 defense against the confused-deputy / token-theft attack class: a hijacked token is bound to one
